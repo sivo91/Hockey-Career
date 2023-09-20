@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*  xxl size */
+@media screen and (max-width: 1400px) {
+  .AK-logo-rotation {
+    position: relative;
+    top: 40px!important;
+  }
+
+ }
+
+ /* xl size */
+ @media screen and (max-width: 1024px) {
+  .AK-logo-rotation {
+    position: relative;
+    top: 0px!important;
+  }
+ }
+
+
+ /* Large devices (desktops, 992px and down) */
+@media screen and (max-width: 993px) {
+  
+  .medaileBox, .awardsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vid {
+    width: 200px;
+  }
+
+ 
+  .panel {
+    min-height: 100vh;
+  }
+  
+}
+
+
+/*  Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) { 
+
+  .content-prev-car {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .certifBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.certif-img {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.stocktonBox {
+  display: flex;
+  flex-direction: column;
+}
+
+figure, .stocktonText {
+  margin: 0 auto;
+}
+
+.stocktonText > h4 {
+  margin-top: 10px;
+}
+
+
+
+  .panel {
+    position: relative;
+    min-height: 100vh!important;
+  }
+ }
+
+
+ /* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) { 
+  
+  .content-prev-car {
+    position: relative;
+    margin-top: 30px;
+  }
+
+  .cups {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .panel {
+    width: 140%;
+    left: -40px;
+  }
+
+  .modal {
+    position: fixed;
+    width: 350px;
+    left: 30px;
+
+  }
+
+
+
+  .curiozitka {
+     width: 350px;
+  }
+
+  #animation-tn-cup {
+    position: relative;
+    
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
